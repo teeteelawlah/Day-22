@@ -1,0 +1,97 @@
+html,body{
+  height:100%;
+  padding:0px;
+  margin:0px;
+}
+h1{
+  font-size: 60px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  font-family: cursive;
+  color: bisque;
+  line-height: 50px;
+  padding-top: 40px;
+}
+
+#digital-clock{
+  display:block;
+  max-width:100%;
+  min-height:100%;
+  text-align:center;
+  margin: auto;
+  padding:10px;
+  background:black;
+  color:aqua;
+  line-height:0px;
+  border: solid 3px white;
+}
+
+#time{
+  font-size:60px;
+  font-weight:bold;
+  line-height:30px;
+  margin-top:30px
+}
+
+#today{
+  font-size:60px;
+  font-weight:bold;
+  color:lightcoral;
+  opacity:0.8;
+  padding-top: 30px;
+}
+
+#date{
+  font-weight:bold;
+  font-size:100px;
+  opacity:0.8;
+  color:#ccffff; 
+  padding-top: 30px;
+}
+
+#month{
+  font-weight:bold;
+  font-size:60px;
+  opacity:0.5;
+  color:tomato;
+  margin-top:-10px;
+  padding-top: 30px;
+}
+
+#year{
+  font-weight:bold;
+  font-size:150px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  opacity:0.2;
+  color:peru;
+  margin-top:120px;
+  
+}
+
+@media screen and (max-width:550px){
+  h1{
+    font-size: 30px;
+
+  }
+
+  #time{
+    font-size: 30px;
+  }
+
+  #today{
+    font-size: 30px;
+  }
+
+  #date{
+    font-size: 40px;
+  }
+
+  #month{
+    font-size: 50px;
+  }
+
+  #year{
+    font-size: 70px;
+  }
+}
